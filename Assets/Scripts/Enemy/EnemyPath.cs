@@ -10,6 +10,7 @@ public class EnemyPath : MonoBehaviour
     {
         GameObject[] points = GameObject.FindGameObjectsWithTag("Player");
         Transform[] pathPoints = points.Select(p => p.transform).ToArray();
+        
         // Convert Transform array to Vector3 array
         Vector3[] positions = new Vector3[pathPoints.Length];
         for (int i = 0; i < pathPoints.Length; i++)
