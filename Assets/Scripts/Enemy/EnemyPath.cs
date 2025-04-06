@@ -5,12 +5,13 @@ using System.Linq;
 public class EnemyPath : MonoBehaviour
 {
     [SerializeField] private Transform[] pathPoints; // Use Transforms so you can assign GameObjects in the Editor
+    [SerializeField] private float pathDuration = 25f; // Duration for the path movement
 
     void Start()
     {
         GameObject[] points = GameObject.FindGameObjectsWithTag("Player");
         Transform[] pathPoints = points.Select(p => p.transform).ToArray();
-        
+
         // Convert Transform array to Vector3 array
         Vector3[] positions = new Vector3[pathPoints.Length];
         for (int i = 0; i < pathPoints.Length; i++)
@@ -19,11 +20,10 @@ public class EnemyPath : MonoBehaviour
         }
 
         // Use DOPath with positions
-        transform.DOPath(positions, 20f, PathType.CatmullRom);
+        transform.DOPath(positions, pathDuration, PathType.CatmullRom);
     }
 
-    void Update()
-    {
-        // Optional: Add dynamic behavior here
+    public void KillTween(){
+        DOTween.Kill(transform);
     }
 }

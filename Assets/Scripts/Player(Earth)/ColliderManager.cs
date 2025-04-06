@@ -6,6 +6,10 @@ public class ColliderManager : MonoBehaviour
         if (other.CompareTag("enemy"))
         {
             EnemySpawner.onEnemyDestroyed.Invoke();
+
+            EnemyPath enemyPath = other.GetComponent<EnemyPath>();
+            enemyPath.KillTween();
+
             Destroy(other.gameObject);
         }
     }
