@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1961810852254638690}
   - component: {fileID: 3127607693892223099}
   - component: {fileID: 7482312152298790293}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: enemy
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -116,7 +116,7 @@ CircleCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
