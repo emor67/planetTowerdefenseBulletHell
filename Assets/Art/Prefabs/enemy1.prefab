@@ -106,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pathPoints:
   - {fileID: 0}
-  pathDuration: 40
+  pathDuration: 50
 --- !u!58 &7482312152298790293
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -183,6 +183,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyHealth: 200
+  enemyDamage: 200
+  coinValue: 20
+  levelManagerObject: {fileID: 0}
 --- !u!95 &3242069879485076778
 Animator:
   serializedVersion: 7

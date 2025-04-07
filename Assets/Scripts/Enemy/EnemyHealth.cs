@@ -4,6 +4,14 @@ public class EnemyHealth : MonoBehaviour
 {
     //variables
     [SerializeField] private float enemyHealth = 100f;
+    public float enemyDamage = 100f;
+    [SerializeField] private int coinValue;
+    [SerializeField] private GameObject levelManagerObject;
+
+    void Start()
+    {
+        levelManagerObject = GameObject.FindGameObjectWithTag("LevelManager");
+    }
 
     public void TakeDamage(float damage)
     {
@@ -15,6 +23,8 @@ public class EnemyHealth : MonoBehaviour
 
             EnemyPath enemyPath = GetComponent<EnemyPath>();
             enemyPath.KillTween();
+
+            levelManagerObject.GetComponent<CurrencyManager>().AddCoins(coinValue);
 
             Destroy(gameObject);
         }

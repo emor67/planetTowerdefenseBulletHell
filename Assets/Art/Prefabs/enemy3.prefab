@@ -183,6 +183,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyHealth: 100
+  coinValue: 10
+  currencyManager: {fileID: 0}
 --- !u!95 &3242069879485076778
 Animator:
   serializedVersion: 7

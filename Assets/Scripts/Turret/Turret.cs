@@ -20,7 +20,7 @@ public class Turret : MonoBehaviour
 
     private Transform target;
     private float timeUntilFire;
-    private float rotationOffset;
+    private float rotationOffset = -90f;
 
     void Update()
     {
