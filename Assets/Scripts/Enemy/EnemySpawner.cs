@@ -20,6 +20,7 @@ public class EnemySpawner : MonoBehaviour
     private int enemiesLeftToSpawn;
     private bool isSpawning = false;
     private Transform spawnPoint;
+    private int randomIndex;
 
     //Events
     public static UnityEvent onEnemyDestroyed = new UnityEvent();
@@ -85,7 +86,15 @@ public class EnemySpawner : MonoBehaviour
 
     private void SpawnEnemy()
     {
-       GameObject prefabToSpawn = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
+        float randomValue = Random.Range(0f, 1f);
+        if (randomValue >= 0.25f && randomValue <= 1.00f){
+            randomIndex = 0;
+        } else if(randomValue >= 0.10f && randomValue <= 0.25f){
+            randomIndex = 1;
+        } else if(randomValue >= 0f && randomValue <= 0.10f){
+            randomIndex = 2;
+        }
+       GameObject prefabToSpawn = enemyPrefabs[randomIndex];
        Instantiate(prefabToSpawn, spawnPoint.position, Quaternion.identity);
     }
 

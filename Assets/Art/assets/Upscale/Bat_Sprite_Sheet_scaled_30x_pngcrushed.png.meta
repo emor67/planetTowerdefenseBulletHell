@@ -1,0 +1,531 @@
+fileFormatVersion: 2
+guid: fce94424c44075f4080895457a863708
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 671500809421054464
+    second: Bat_Sprite_Sheet_scaled_30x_pngcrushed_0
+  - first:
+      213: -3129276963548966472
+    second: Bat_Sprite_Sheet_scaled_30x_pngcrushed_1
+  - first:
+      213: 2536810359609690974
+    second: Bat_Sprite_Sheet_scaled_30x_pngcrushed_2
+  - first:
+      213: 7259960092875384101
+    second: Bat_Sprite_Sheet_scaled_30x_pngcrushed_3
+  - first:
+      213: -4000843367223313768
+    second: Bat_Sprite_Sheet_scaled_30x_pngcrushed_4
+  - first:
+      213: 30109503503847986
+    second: Bat_Sprite_Sheet_scaled_30x_pngcrushed_5
+  - first:
+      213: 1425402065386678342
+    second: Bat_Sprite_Sheet_scaled_30x_pngcrushed_6
+  - first:
+      213: -7485000075804508453
+    second: Bat_Sprite_Sheet_scaled_30x_pngcrushed_7
+  - first:
+      213: -1912749633150268372
+    second: Bat_Sprite_Sheet_scaled_30x_pngcrushed_8
+  - first:
+      213: 2668144813408094167
+    second: Bat_Sprite_Sheet_scaled_30x_pngcrushed_9
+  - first:
+      213: 4546514516373693395
+    second: Bat_Sprite_Sheet_scaled_30x_pngcrushed_10
+  - first:
+      213: 8627312851158256817
+    second: Bat_Sprite_Sheet_scaled_30x_pngcrushed_11
+  - first:
+      213: 4866280514212801172
+    second: Bat_Sprite_Sheet_scaled_30x_pngcrushed_12
+  - first:
+      213: -4711976227346147281
+    second: Bat_Sprite_Sheet_scaled_30x_pngcrushed_13
+  - first:
+      213: 5927624905203813077
+    second: Bat_Sprite_Sheet_scaled_30x_pngcrushed_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bat_Sprite_Sheet_scaled_30x_pngcrushed_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1829
+        width: 392
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002edebad66a15900800000000000000
+      internalID: 671500809421054464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Sprite_Sheet_scaled_30x_pngcrushed_1
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1799
+        width: 362
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1d9d76e239294d0800000000000000
+      internalID: -3129276963548966472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Sprite_Sheet_scaled_30x_pngcrushed_2
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1739
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b011bd49f843320800000000000000
+      internalID: 2536810359609690974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Sprite_Sheet_scaled_30x_pngcrushed_3
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1769
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52569535d3f80c460800000000000000
+      internalID: 7259960092875384101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Sprite_Sheet_scaled_30x_pngcrushed_4
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 1859
+        width: 481
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a3da6a7262a78c0800000000000000
+      internalID: -4000843367223313768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Sprite_Sheet_scaled_30x_pngcrushed_5
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1109
+        width: 392
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232d5b41f68fa6000800000000000000
+      internalID: 30109503503847986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Sprite_Sheet_scaled_30x_pngcrushed_6
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1079
+        width: 362
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6482b7950ab08c310800000000000000
+      internalID: 1425402065386678342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Sprite_Sheet_scaled_30x_pngcrushed_7
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1019
+        width: 332
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde76e99610ff1890800000000000000
+      internalID: -7485000075804508453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Sprite_Sheet_scaled_30x_pngcrushed_8
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1049
+        width: 332
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cc1d3c75c8475e0800000000000000
+      internalID: -1912749633150268372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Sprite_Sheet_scaled_30x_pngcrushed_9
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 1139
+        width: 481
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d78d744297270520800000000000000
+      internalID: 2668144813408094167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Sprite_Sheet_scaled_30x_pngcrushed_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 329
+        width: 481
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d36c9a3dd6781f30800000000000000
+      internalID: 4546514516373693395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Sprite_Sheet_scaled_30x_pngcrushed_11
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 269
+        width: 302
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc4373245f5ab770800000000000000
+      internalID: 8627312851158256817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Sprite_Sheet_scaled_30x_pngcrushed_12
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 179
+        width: 242
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a2f035850888340800000000000000
+      internalID: 4866280514212801172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Sprite_Sheet_scaled_30x_pngcrushed_13
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 59
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2892fa1692bb9eb0800000000000000
+      internalID: -4711976227346147281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Sprite_Sheet_scaled_30x_pngcrushed_14
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 29
+        width: 452
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da8e640277234250800000000000000
+      internalID: 5927624905203813077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

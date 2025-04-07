@@ -204,7 +204,6 @@ MonoBehaviour:
   firingPoint: {fileID: 1761013881}
   targetingRange: 6
   rotationSpeed: 2000
-  rotationOffset: 90
   bulletPerSecond: 3
 --- !u!1 &469653261
 GameObject:
@@ -260,7 +259,6 @@ MonoBehaviour:
   firingPoint: {fileID: 2116672661}
   targetingRange: 6
   rotationSpeed: 2000
-  rotationOffset: -180
   bulletPerSecond: 3
 --- !u!1 &519420028
 GameObject:
@@ -879,7 +877,6 @@ MonoBehaviour:
   firingPoint: {fileID: 1842835208}
   targetingRange: 6
   rotationSpeed: 2000
-  rotationOffset: 0
   bulletPerSecond: 3
 --- !u!1 &792974941
 GameObject:
@@ -935,7 +932,6 @@ MonoBehaviour:
   firingPoint: {fileID: 992906959}
   targetingRange: 6
   rotationSpeed: 2000
-  rotationOffset: -90
   bulletPerSecond: 3
 --- !u!1 &907469105
 GameObject:
@@ -1420,10 +1416,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs:
+  - {fileID: 330161750582321748, guid: 65a5aeef6f23d584da2607b694b1e181, type: 3}
+  - {fileID: 330161750582321748, guid: e7da7fcc2580e704c82979363ce8ef4b, type: 3}
   - {fileID: 330161750582321748, guid: 16496bfff6107174a8401fe0bf9de34b, type: 3}
   baseEnemies: 8
   enemyPerSecond: 0.5
-  timeBetweenWaves: 5
+  timeBetweenWaves: 3.5
   diffucultyScaleFactor: 0.75
   spawnPointObjects:
   - {fileID: 1862817131}

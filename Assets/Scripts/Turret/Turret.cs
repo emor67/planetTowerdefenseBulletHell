@@ -16,30 +16,37 @@ public class Turret : MonoBehaviour
     //Variables
     [SerializeField] private float targetingRange = 6f;
     [SerializeField] private float rotationSpeed = 3000f;
-    [SerializeField] private float rotationOffset;
     [SerializeField] private float bulletPerSecond = 3f;
 
     private Transform target;
     private float timeUntilFire;
+    private float rotationOffset;
 
     void Update()
     {
-        if (target == null){
+        if (target == null)
+        {
             FindTarget();
             return;
         }
 
         RotateTowardsTarget();
 
-        if (!CheckTargetIsInRange()) {
+        if (!CheckTargetIsInRange())
+        {
             target = null;
-        } else {
+        }
+        else
+        {
             timeUntilFire += Time.deltaTime;
-            if (timeUntilFire >= (1f / bulletPerSecond)) {
+            if (timeUntilFire >= (1f / bulletPerSecond))
+            {
                 Shoot();
                 timeUntilFire = 0f;
             }
         }
+
+        BulletRatator();
     }
 
     private void Shoot()
@@ -47,6 +54,15 @@ public class Turret : MonoBehaviour
         GameObject bulletobj = Instantiate(bulletPrefab, firingPoint.position, quaternion.identity);
         Bullet bulletScript = bulletobj.GetComponent<Bullet>();
         bulletScript.SetTarget(target);
+    }
+
+     private void BulletRatator()
+    {
+        if (target != null){
+        Vector3 look = transform.InverseTransformPoint(target.position);
+        float angle = Mathf.Atan2(look.y, look.x) * Mathf.Rad2Deg - 90f;
+        bulletPrefab.transform.rotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
+        }
     }
 
     private void FindTarget() {
