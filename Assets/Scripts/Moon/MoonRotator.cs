@@ -7,7 +7,7 @@ public class MoonRotator : MonoBehaviour
     void Start()
     {
         //DOTween.SetTweensCapacity(1250,50);
-        transform.DOLocalRotate(new Vector3(0,0,360), 6f, RotateMode.FastBeyond360).SetLoops(-1).SetEase(Ease.Linear);
+        transform.DOLocalRotate(new Vector3(0,0,360), 8f, RotateMode.FastBeyond360).SetLoops(-1).SetEase(Ease.Linear);
     }
 
     // Update is called once per frame

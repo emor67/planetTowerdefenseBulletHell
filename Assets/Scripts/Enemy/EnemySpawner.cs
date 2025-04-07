@@ -87,11 +87,11 @@ public class EnemySpawner : MonoBehaviour
     private void SpawnEnemy()
     {
         float randomValue = Random.Range(0f, 1f);
-        if (randomValue >= 0.25f && randomValue <= 1.00f){
+        if (randomValue >= 0.50f && randomValue <= 1.00f){
             randomIndex = 0;
-        } else if(randomValue >= 0.10f && randomValue <= 0.25f){
+        } else if(randomValue >= 0.20f && randomValue <= 0.50f){
             randomIndex = 1;
-        } else if(randomValue >= 0f && randomValue <= 0.10f){
+        } else if(randomValue >= 0f && randomValue <= 0.20f){
             randomIndex = 2;
         }
        GameObject prefabToSpawn = enemyPrefabs[randomIndex];
