@@ -21,6 +21,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private float enemyPerSecond = 0.5f;
     [SerializeField] private float timeBetweenWaves = 5f;
     [SerializeField] private float diffucultyScaleFactor = 1f;
+    [SerializeField] private float diffucultyScaleFactorEnemy = 1f;
     
 
     private int currentWave = 1;
@@ -92,6 +93,11 @@ public class EnemySpawner : MonoBehaviour
         isSpawning = true;
         enemiesLeftToSpawn = EnemiesPerWave();
         waveProgressBar.Initialize(enemiesLeftToSpawn);
+        if (currentWave > 1)
+        {
+            IncreaseEnemyStats();
+        }
+
     }
 
     private int EnemiesPerWave()
@@ -125,7 +131,6 @@ public class EnemySpawner : MonoBehaviour
         isSpawning = false;
         timeSinceLastSpawn = 0f;
         currentWave++;
-        IncreaseEnemyStats();
 
         waveText.text = "Wave " + currentWave.ToString();
         StartCoroutine(StartWave());
@@ -133,16 +138,16 @@ public class EnemySpawner : MonoBehaviour
 
     private void IncreaseEnemyStats()
     {
-        enemy1.GetComponent<EnemyHealth>().enemyHealth = Mathf.RoundToInt(enemy1.GetComponent<EnemyHealth>().enemyHealth  + Mathf.Pow(currentWave, diffucultyScaleFactor) * 5 / 6);
-        enemy1.GetComponent<EnemyHealth>().enemyDamage = Mathf.RoundToInt(enemy1.GetComponent<EnemyHealth>().enemyDamage + Mathf.Pow(currentWave, diffucultyScaleFactor) * 5 / 6);
-        enemy1.GetComponent<EnemyHealth>().coinValue = Mathf.RoundToInt(enemy1.GetComponent<EnemyHealth>().coinValue + Mathf.Pow(currentWave, diffucultyScaleFactor) * 3 / 10);
+        enemy1.GetComponent<EnemyHealth>().enemyHealth += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
+        enemy1.GetComponent<EnemyHealth>().enemyDamage += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
+        enemy1.GetComponent<EnemyHealth>().coinValue += (int)Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
 
-        enemy2.GetComponent<EnemyHealth>().enemyHealth = Mathf.RoundToInt(enemy2.GetComponent<EnemyHealth>().enemyHealth + Mathf.Pow(currentWave, diffucultyScaleFactor) * 5 / 6);
-        enemy2.GetComponent<EnemyHealth>().enemyDamage = Mathf.RoundToInt(enemy2.GetComponent<EnemyHealth>().enemyDamage + Mathf.Pow(currentWave, diffucultyScaleFactor) * 5 / 6);
-        enemy2.GetComponent<EnemyHealth>().coinValue = Mathf.RoundToInt(enemy2.GetComponent<EnemyHealth>().coinValue + Mathf.Pow(currentWave, diffucultyScaleFactor) * 3 / 10);
+        enemy2.GetComponent<EnemyHealth>().enemyHealth += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
+        enemy2.GetComponent<EnemyHealth>().enemyDamage += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
+        enemy2.GetComponent<EnemyHealth>().coinValue += (int)Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
 
-        enemy3.GetComponent<EnemyHealth>().enemyHealth = Mathf.RoundToInt(enemy3.GetComponent<EnemyHealth>().enemyHealth + Mathf.Pow(currentWave, diffucultyScaleFactor) * 5 / 6);
-        enemy3.GetComponent<EnemyHealth>().enemyDamage = Mathf.RoundToInt(enemy3.GetComponent<EnemyHealth>().enemyDamage + Mathf.Pow(currentWave, diffucultyScaleFactor) * 5 / 6);
-        enemy3.GetComponent<EnemyHealth>().coinValue = Mathf.RoundToInt(enemy3.GetComponent<EnemyHealth>().coinValue + Mathf.Pow(currentWave, diffucultyScaleFactor) * 3 / 10);
+        enemy3.GetComponent<EnemyHealth>().enemyHealth += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
+        enemy3.GetComponent<EnemyHealth>().enemyDamage += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
+        enemy3.GetComponent<EnemyHealth>().coinValue += (int)Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
     }
 }

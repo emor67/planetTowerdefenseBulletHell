@@ -11,6 +11,9 @@ public class TurretBuyButton : MonoBehaviour
     [SerializeField] private TextMeshProUGUI automaticTurretCostText;
     [SerializeField] private TextMeshProUGUI sniperTurretCostText;
 
+    [SerializeField] private GameObject colorAutomaticTurretPrefab;
+    [SerializeField] private GameObject colorSniperTurretPrefab;
+
 
     //variables
     [SerializeField] private int automaticTurretCost;
@@ -23,6 +26,12 @@ public class TurretBuyButton : MonoBehaviour
     {
         automaticTurretCostText.text = automaticTurretCost.ToString();
         sniperTurretCostText.text = sniperTurretCost.ToString();
+
+        colorAutomaticTurretPrefab.SetActive(false);
+        colorSniperTurretPrefab.SetActive(false);
+
+        automaticTurretPrefab.SetActive(false);
+        sniperTurretPrefab.SetActive(false);
     }
     public void BuyAutomaticTurret(){
         if((currencyManager.coins >= automaticTurretCost) && !isAutomaticTurretActive){
@@ -31,6 +40,9 @@ public class TurretBuyButton : MonoBehaviour
             
             automaticTurretPrefab.SetActive(true);
             sniperTurretPrefab.SetActive(false);
+
+            colorAutomaticTurretPrefab.SetActive(true);
+            colorSniperTurretPrefab.SetActive(false);
         }
 
         isAutomaticTurretActive = true;
@@ -43,6 +55,9 @@ public class TurretBuyButton : MonoBehaviour
             
             sniperTurretPrefab.SetActive(true);
             automaticTurretPrefab.SetActive(false);
+
+            colorSniperTurretPrefab.SetActive(true);
+            colorAutomaticTurretPrefab.SetActive(false);
         }
         isSniperTurretActive = true;
         isAutomaticTurretActive = false;
