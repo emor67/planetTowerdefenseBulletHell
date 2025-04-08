@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DroneScreenAnim : MonoBehaviour
+public class TurretScreenAnim : MonoBehaviour
 {
     //references
     [SerializeField] private Animator anim;

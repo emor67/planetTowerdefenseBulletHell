@@ -6,9 +6,11 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private MicroBar healthBar;
     //variables
     [SerializeField] private float playerHealth = 1000f;
+    [SerializeField] private float maxHealth = 1000f;
     
     private void Start()
     {
+        playerHealth = maxHealth;
         healthBar.Initialize(playerHealth);
     }
     public void TakeDamage(float damage)
@@ -23,11 +25,11 @@ public class PlayerHealth : MonoBehaviour
     }
     public void Heal(float amount)
     {
-        healthBar.UpdateBar(healthBar.CurrentValue + amount);
-        playerHealth += amount;
-        if (playerHealth > 1000f) // Assuming 1000 is the max health
+        healthBar.UpdateBar(healthBar.CurrentValue + (healthBar.MaxValue * amount / 100f));
+        playerHealth += playerHealth*amount/100f;
+        if (playerHealth > maxHealth)
         {
-            playerHealth = 1000f;
+            playerHealth = maxHealth;
         }
     }
 }
