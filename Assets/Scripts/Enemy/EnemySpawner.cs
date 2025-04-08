@@ -1,18 +1,27 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using Microlight.MicroBar;
+using TMPro;
+using UnityEditor;
 
 public class EnemySpawner : MonoBehaviour
 {
     //References
     [SerializeField] private GameObject[] enemyPrefabs;
+    [SerializeField] MicroBar waveProgressBar;
+    [SerializeField] private GameObject[] spawnPointObjects;
+    [SerializeField] private TextMeshProUGUI waveText;
+    [SerializeField] private GameObject enemy1;
+    [SerializeField] private GameObject enemy2;
+    [SerializeField] private GameObject enemy3; 
 
     //Variables
     [SerializeField] private int baseEnemies = 8;
     [SerializeField] private float enemyPerSecond = 0.5f;
     [SerializeField] private float timeBetweenWaves = 5f;
     [SerializeField] private float diffucultyScaleFactor = 1f;
-    [SerializeField] private GameObject[] spawnPointObjects;
+    
 
     private int currentWave = 1;
     private float timeSinceLastSpawn;
@@ -37,6 +46,11 @@ public class EnemySpawner : MonoBehaviour
 
     private void Start() {
         StartCoroutine(StartWave());
+        waveText.text = "Wave 1";
+
+        enemy1 = AssetDatabase.LoadAssetAtPath("Assets/Art/Prefabs/enemy1.prefab", typeof(GameObject)) as GameObject;
+        enemy2 = AssetDatabase.LoadAssetAtPath("Assets/Art/Prefabs/enemy2.prefab", typeof(GameObject)) as GameObject;
+        enemy3 = AssetDatabase.LoadAssetAtPath("Assets/Art/Prefabs/enemy3.prefab", typeof(GameObject)) as GameObject;    
     }
 
     private void Update()
@@ -77,6 +91,7 @@ public class EnemySpawner : MonoBehaviour
         yield return new WaitForSeconds(timeBetweenWaves);
         isSpawning = true;
         enemiesLeftToSpawn = EnemiesPerWave();
+        waveProgressBar.Initialize(enemiesLeftToSpawn);
     }
 
     private int EnemiesPerWave()
@@ -94,6 +109,7 @@ public class EnemySpawner : MonoBehaviour
         } else if(randomValue >= 0f && randomValue <= 0.20f){
             randomIndex = 2;
         }
+
        GameObject prefabToSpawn = enemyPrefabs[randomIndex];
        Instantiate(prefabToSpawn, spawnPoint.position, Quaternion.identity);
     }
@@ -101,6 +117,7 @@ public class EnemySpawner : MonoBehaviour
     private void EnemyDestroyed()
     {
         enemiesAlive--;
+        waveProgressBar.UpdateBar(waveProgressBar.CurrentValue - 1);
     }
 
     private void EndWave()
@@ -108,6 +125,24 @@ public class EnemySpawner : MonoBehaviour
         isSpawning = false;
         timeSinceLastSpawn = 0f;
         currentWave++;
+        IncreaseEnemyStats();
+
+        waveText.text = "Wave " + currentWave.ToString();
         StartCoroutine(StartWave());
+    }
+
+    private void IncreaseEnemyStats()
+    {
+        enemy1.GetComponent<EnemyHealth>().enemyHealth = Mathf.RoundToInt(enemy1.GetComponent<EnemyHealth>().enemyHealth  + Mathf.Pow(currentWave, diffucultyScaleFactor) * 5 / 6);
+        enemy1.GetComponent<EnemyHealth>().enemyDamage = Mathf.RoundToInt(enemy1.GetComponent<EnemyHealth>().enemyDamage + Mathf.Pow(currentWave, diffucultyScaleFactor) * 5 / 6);
+        enemy1.GetComponent<EnemyHealth>().coinValue = Mathf.RoundToInt(enemy1.GetComponent<EnemyHealth>().coinValue + Mathf.Pow(currentWave, diffucultyScaleFactor) * 3 / 10);
+
+        enemy2.GetComponent<EnemyHealth>().enemyHealth = Mathf.RoundToInt(enemy2.GetComponent<EnemyHealth>().enemyHealth + Mathf.Pow(currentWave, diffucultyScaleFactor) * 5 / 6);
+        enemy2.GetComponent<EnemyHealth>().enemyDamage = Mathf.RoundToInt(enemy2.GetComponent<EnemyHealth>().enemyDamage + Mathf.Pow(currentWave, diffucultyScaleFactor) * 5 / 6);
+        enemy2.GetComponent<EnemyHealth>().coinValue = Mathf.RoundToInt(enemy2.GetComponent<EnemyHealth>().coinValue + Mathf.Pow(currentWave, diffucultyScaleFactor) * 3 / 10);
+
+        enemy3.GetComponent<EnemyHealth>().enemyHealth = Mathf.RoundToInt(enemy3.GetComponent<EnemyHealth>().enemyHealth + Mathf.Pow(currentWave, diffucultyScaleFactor) * 5 / 6);
+        enemy3.GetComponent<EnemyHealth>().enemyDamage = Mathf.RoundToInt(enemy3.GetComponent<EnemyHealth>().enemyDamage + Mathf.Pow(currentWave, diffucultyScaleFactor) * 5 / 6);
+        enemy3.GetComponent<EnemyHealth>().coinValue = Mathf.RoundToInt(enemy3.GetComponent<EnemyHealth>().coinValue + Mathf.Pow(currentWave, diffucultyScaleFactor) * 3 / 10);
     }
 }

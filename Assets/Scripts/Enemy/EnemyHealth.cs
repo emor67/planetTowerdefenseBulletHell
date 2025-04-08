@@ -3,9 +3,11 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     //variables
-    [SerializeField] private float enemyHealth = 100f;
+    public float enemyHealth = 100f;
     public float enemyDamage = 100f;
-    [SerializeField] private int coinValue;
+    public int coinValue;
+    
+    //references
     [SerializeField] private GameObject levelManagerObject;
 
     void Start()
