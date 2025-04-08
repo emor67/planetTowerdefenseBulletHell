@@ -6,8 +6,8 @@ public class CurrencyManager : MonoBehaviour
     //references
     [SerializeField] private TextMeshProUGUI coinsText;
     //variables
-    [SerializeField] private int coins;
-    [SerializeField] private int gem;
+    public int coins;
+    public int gem;
 
     public void AddCoins(int amount)
     {

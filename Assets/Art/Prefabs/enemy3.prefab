@@ -106,7 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pathPoints:
   - {fileID: 0}
-  pathDuration: 40
+  pathDuration: 30
 --- !u!58 &7482312152298790293
 CircleCollider2D:
   m_ObjectHideFlags: 0
