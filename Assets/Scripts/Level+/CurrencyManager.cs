@@ -5,6 +5,7 @@ public class CurrencyManager : MonoBehaviour
 {
     //references
     [SerializeField] private TextMeshProUGUI coinsText;
+    [SerializeField] private TextMeshProUGUI gemText;
     //variables
     public int coins;
     public int gem;
@@ -15,7 +16,12 @@ public class CurrencyManager : MonoBehaviour
     }
     public void RemoveCoins(int amount)
     {
-        coins -= amount;
+        if (coins - amount < 0)
+        {
+            Debug.Log("Not enough coins!");
+            return;
+        }
+        else coins -= amount;
     }
 
     public void AddGems(int amount)
@@ -24,11 +30,17 @@ public class CurrencyManager : MonoBehaviour
     }
     public void RemoveGems(int amount)
     {
-        gem -= amount;
+        if (gem - amount < 0)
+        {
+            Debug.Log("Not enough gems!");
+            return;
+        }
+        else gem -= amount;
     }
 
     void Update()
     {
         coinsText.text = "Coins: " + coins.ToString();
+        gemText.text = "Gems: " + gem.ToString();
     }
 }

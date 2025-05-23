@@ -7,7 +7,7 @@ public class TurretScreenAnim : MonoBehaviour
     //variables
     private bool isGameScreenActive = false;
 
-    public void OnclickDroneButton()
+    public void OnclickTurretButton()
     {
         if(!isGameScreenActive)
         {

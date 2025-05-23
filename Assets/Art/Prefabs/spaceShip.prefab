@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 7248266766439464070}
   - component: {fileID: 2688248709824980112}
   - component: {fileID: 3850396588582158827}
+  - component: {fileID: 1108864227151216959}
   m_Layer: 0
   m_Name: spaceShip
   m_TagString: Untagged
@@ -108,7 +109,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -4439027850943501067, guid: 8a02de7006d38ba42b00864c05e003b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -136,4 +137,41 @@ MonoBehaviour:
   projectilePrefab: {fileID: 6932948945319999088, guid: 0cc76722aabb0fb429953a00edee50b6, type: 3}
   projectileSpeed: 10
   cursorHotspot: {x: 0, y: 0}
-  firingPoint: {fileID: 0}
+  firingPoint: {fileID: 1047134316697600556}
+  spaceShipBuy: {fileID: 0}
+--- !u!58 &1108864227151216959
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8311843391577023720}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.23

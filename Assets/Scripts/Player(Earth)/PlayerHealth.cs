@@ -7,6 +7,8 @@ public class PlayerHealth : MonoBehaviour
     //variables
     [SerializeField] private float playerHealth = 1000f;
     [SerializeField] private float maxHealth = 1000f;
+
+    public CurrencyManager currencyManager;
     
     private void Start()
     {
@@ -24,12 +26,17 @@ public class PlayerHealth : MonoBehaviour
         }
     }
     public void Heal(float amount)
-    {
-        healthBar.UpdateBar(healthBar.CurrentValue + (healthBar.MaxValue * amount / 100f));
-        playerHealth += playerHealth*amount/100f;
-        if (playerHealth > maxHealth)
+    {   
+        if (currencyManager.coins >= 200 && playerHealth < maxHealth)
         {
-            playerHealth = maxHealth;
+            currencyManager.RemoveCoins(200);
+            healthBar.UpdateBar(healthBar.CurrentValue + (healthBar.MaxValue * amount / 100f));
+            playerHealth += playerHealth*amount/100f;
+            if (playerHealth > maxHealth)
+            {
+                playerHealth = maxHealth;
+            }   
         }
+        
     }
 }

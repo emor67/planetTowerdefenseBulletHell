@@ -16,6 +16,8 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private GameObject enemy2;
     [SerializeField] private GameObject enemy3; 
 
+    public CurrencyManager currencyManager;
+
     //Variables
     [SerializeField] private int baseEnemies = 8;
     [SerializeField] private float enemyPerSecond = 0.5f;
@@ -131,6 +133,8 @@ public class EnemySpawner : MonoBehaviour
         isSpawning = false;
         timeSinceLastSpawn = 0f;
         currentWave++;
+
+        currencyManager.AddGems(1);
 
         waveText.text = "Wave " + currentWave.ToString();
         StartCoroutine(StartWave());

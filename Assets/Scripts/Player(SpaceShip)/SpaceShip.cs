@@ -8,11 +8,15 @@ public class SpaceShip : MonoBehaviour
     public Vector2 cursorHotspot = Vector2.zero;
     public Transform firingPoint;
 
+    public SpaceShipBuy spaceShipBuy;
+
     private Camera mainCamera;
 
+    [System.Obsolete]
     void Start()
     {
         mainCamera = Camera.main;
+        spaceShipBuy = FindObjectOfType<SpaceShipBuy>();
     }
 
     void Update()
@@ -51,6 +55,21 @@ void Shoot()
         projectile.GetComponent<Rigidbody2D>().linearVelocity = direction * projectileSpeed;
     }
 }
+private void OnTriggerEnter2D(Collider2D other){
+        if (other.CompareTag("enemy"))
+        {
+            EnemySpawner.onEnemyDestroyed.Invoke();
 
+            EnemyPath enemyPath = other.GetComponent<EnemyPath>();
+
+            enemyPath.KillTween();
+
+            Destroy(other.gameObject);
+
+            Destroy(this.gameObject);
+
+            spaceShipBuy.isAlive = false;
+        }
+    }
 
 }
