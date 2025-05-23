@@ -2076,7 +2076,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '%20'
+  m_text: '200
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2171,7 +2173,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &319558770
 Transform:
   m_ObjectHideFlags: 0
@@ -2207,7 +2209,7 @@ MonoBehaviour:
     m_Bits: 64
   bulletPrefab: {fileID: 6932948945319999088, guid: 8d7ac15b7631ab344a2640c387e0532c, type: 3}
   firingPoint: {fileID: 1761013881}
-  targetingRange: 6
+  targetingRange: 2
   rotationSpeed: 2000
   bulletPerSecond: 3
 --- !u!1 &327212351
@@ -2526,7 +2528,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &351181537
 Transform:
   m_ObjectHideFlags: 0
@@ -2562,7 +2564,7 @@ MonoBehaviour:
     m_Bits: 64
   bulletPrefab: {fileID: 6932948945319999088, guid: 0cc76722aabb0fb429953a00edee50b6, type: 3}
   firingPoint: {fileID: 338196839}
-  targetingRange: 8
+  targetingRange: 3
   rotationSpeed: 2300
   bulletPerSecond: 1.5
 --- !u!1 &380109796
@@ -3067,7 +3069,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &469653262
 Transform:
   m_ObjectHideFlags: 0
@@ -3103,7 +3105,7 @@ MonoBehaviour:
     m_Bits: 64
   bulletPrefab: {fileID: 6932948945319999088, guid: 8d7ac15b7631ab344a2640c387e0532c, type: 3}
   firingPoint: {fileID: 2116672661}
-  targetingRange: 6
+  targetingRange: 2
   rotationSpeed: 2000
   bulletPerSecond: 3
 --- !u!1 &474814761
@@ -5286,7 +5288,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &763729918
 Transform:
   m_ObjectHideFlags: 0
@@ -5322,7 +5324,7 @@ MonoBehaviour:
     m_Bits: 64
   bulletPrefab: {fileID: 6932948945319999088, guid: 8d7ac15b7631ab344a2640c387e0532c, type: 3}
   firingPoint: {fileID: 1842835208}
-  targetingRange: 6
+  targetingRange: 2
   rotationSpeed: 2000
   bulletPerSecond: 3
 --- !u!1 &782075963
@@ -5474,7 +5476,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &792974942
 Transform:
   m_ObjectHideFlags: 0
@@ -5510,7 +5512,7 @@ MonoBehaviour:
     m_Bits: 64
   bulletPrefab: {fileID: 6932948945319999088, guid: 8d7ac15b7631ab344a2640c387e0532c, type: 3}
   firingPoint: {fileID: 992906959}
-  targetingRange: 6
+  targetingRange: 2
   rotationSpeed: 2000
   bulletPerSecond: 3
 --- !u!1 &810026127
@@ -8374,7 +8376,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1245977211
 Transform:
   m_ObjectHideFlags: 0
@@ -8410,7 +8412,7 @@ MonoBehaviour:
     m_Bits: 64
   bulletPrefab: {fileID: 6932948945319999088, guid: 0cc76722aabb0fb429953a00edee50b6, type: 3}
   firingPoint: {fileID: 1354636521}
-  targetingRange: 8
+  targetingRange: 3
   rotationSpeed: 2300
   bulletPerSecond: 1.5
 --- !u!1 &1255210338
@@ -10170,7 +10172,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Heal
+  m_text: 'Heal %20
 
 '
   m_isRightToLeft: 0
@@ -11624,6 +11626,7 @@ MonoBehaviour:
   enemy1: {fileID: 330161750582321748, guid: 16496bfff6107174a8401fe0bf9de34b, type: 3}
   enemy2: {fileID: 330161750582321748, guid: e7da7fcc2580e704c82979363ce8ef4b, type: 3}
   enemy3: {fileID: 330161750582321748, guid: 65a5aeef6f23d584da2607b694b1e181, type: 3}
+  target: {fileID: 710678928}
   currencyManager: {fileID: 1690116639}
   baseEnemies: 12
   enemyPerSecond: 0.7
@@ -11722,7 +11725,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1708314354
 Transform:
   m_ObjectHideFlags: 0
@@ -11758,7 +11761,7 @@ MonoBehaviour:
     m_Bits: 64
   bulletPrefab: {fileID: 6932948945319999088, guid: 0cc76722aabb0fb429953a00edee50b6, type: 3}
   firingPoint: {fileID: 1830146502}
-  targetingRange: 8
+  targetingRange: 3
   rotationSpeed: 2300
   bulletPerSecond: 1.5
 --- !u!1 &1713775731
@@ -11824,7 +11827,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1736345151
 Transform:
   m_ObjectHideFlags: 0
@@ -11860,7 +11863,7 @@ MonoBehaviour:
     m_Bits: 64
   bulletPrefab: {fileID: 6932948945319999088, guid: 0cc76722aabb0fb429953a00edee50b6, type: 3}
   firingPoint: {fileID: 263167996}
-  targetingRange: 8
+  targetingRange: 3
   rotationSpeed: 2300
   bulletPerSecond: 1.5
 --- !u!1 &1737190495

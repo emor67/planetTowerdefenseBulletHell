@@ -54,9 +54,10 @@ public class Turret : MonoBehaviour
         GameObject bulletobj = Instantiate(bulletPrefab, firingPoint.position, quaternion.identity);
         Bullet bulletScript = bulletobj.GetComponent<Bullet>();
         bulletScript.SetTarget(target);
+        BulletRatator();
     }
 
-     private void BulletRatator()
+    private void BulletRatator()
     {
         if (target != null){
         Vector3 look = transform.InverseTransformPoint(target.position);

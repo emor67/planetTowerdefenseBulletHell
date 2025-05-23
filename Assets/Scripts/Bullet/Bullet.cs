@@ -20,11 +20,12 @@ public class Bullet : MonoBehaviour
         Destroy(gameObject, 3f);
     }
 
+    [System.Obsolete]
     private void FixedUpdate() {
         if (target == null) return;
 
         Vector2 direction = (target.position - transform.position).normalized;
-        rb.linearVelocity = direction * bulletSpeed;
+        rb.velocity = direction * bulletSpeed;
     }
 
     private void OnCollisionEnter2D(Collision2D other) {

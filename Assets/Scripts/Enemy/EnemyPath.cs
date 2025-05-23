@@ -1,6 +1,7 @@
 using UnityEngine;
 using DG.Tweening;
 using System.Linq;
+using UnityEngine.Animations;
 
 public class EnemyPath : MonoBehaviour
 {
@@ -19,11 +20,11 @@ public class EnemyPath : MonoBehaviour
             positions[i] = pathPoints[i].position;
         }
 
-        // Use DOPath with positions
+        // Use DOPath with positions and make the enemy look ahead along the path
         transform.DOPath(positions, pathDuration, PathType.CatmullRom);
     }
-
-    public void KillTween(){
+    public void KillTween()
+    {
         DOTween.Kill(transform);
     }
 }

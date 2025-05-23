@@ -134,7 +134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  projectilePrefab: {fileID: 6932948945319999088, guid: 0cc76722aabb0fb429953a00edee50b6, type: 3}
+  projectilePrefab: {fileID: 6932948945319999088, guid: 1cec1a5fc0abcca43b82f2ff6d7b8bd6, type: 3}
   projectileSpeed: 10
   cursorHotspot: {x: 0, y: 0}
   firingPoint: {fileID: 1047134316697600556}

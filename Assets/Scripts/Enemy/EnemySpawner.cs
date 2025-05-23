@@ -15,6 +15,8 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private GameObject enemy1;
     [SerializeField] private GameObject enemy2;
     [SerializeField] private GameObject enemy3; 
+    
+    public Transform target;
 
     public CurrencyManager currencyManager;
 
@@ -47,7 +49,8 @@ public class EnemySpawner : MonoBehaviour
         onEnemyDestroyed.AddListener(EnemyDestroyed);
     }
 
-    private void Start() {
+    private void Start()
+    {
         StartCoroutine(StartWave());
         waveText.text = "Wave 1";
 
@@ -110,16 +113,30 @@ public class EnemySpawner : MonoBehaviour
     private void SpawnEnemy()
     {
         float randomValue = Random.Range(0f, 1f);
-        if (randomValue >= 0.50f && randomValue <= 1.00f){
+        if (randomValue >= 0.50f && randomValue <= 1.00f)
+        {
             randomIndex = 0;
-        } else if(randomValue >= 0.20f && randomValue <= 0.50f){
+        }
+        else if (randomValue >= 0.20f && randomValue <= 0.50f)
+        {
             randomIndex = 1;
-        } else if(randomValue >= 0f && randomValue <= 0.20f){
+        }
+        else if (randomValue >= 0f && randomValue <= 0.20f)
+        {
             randomIndex = 2;
         }
 
-       GameObject prefabToSpawn = enemyPrefabs[randomIndex];
-       Instantiate(prefabToSpawn, spawnPoint.position, Quaternion.identity);
+        GameObject prefabToSpawn = enemyPrefabs[randomIndex];
+
+        // Instantiate the enemy at spawn point
+        GameObject spawnedEnemy = Instantiate(prefabToSpawn, spawnPoint.position, Quaternion.identity);
+
+        // Rotate the spawned enemy to look at the target
+        Vector3 direction = (target.position - spawnedEnemy.transform.position).normalized;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        spawnedEnemy.transform.rotation = Quaternion.Euler(0f, 0f, angle);
+        
+        
     }
 
     private void EnemyDestroyed()
