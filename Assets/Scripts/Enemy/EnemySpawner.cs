@@ -134,8 +134,32 @@ public class EnemySpawner : MonoBehaviour
         // Rotate the spawned enemy to look at the target
         Vector3 direction = (target.position - spawnedEnemy.transform.position).normalized;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        spawnedEnemy.transform.rotation = Quaternion.Euler(0f, 0f, angle);
+
+        Vector3 scale = spawnedEnemy.transform.localScale;
+        if (target.position.x < spawnedEnemy.transform.position.x && target.position.y < spawnedEnemy.transform.position.y)
+        {
+            scale.x = -Mathf.Abs(scale.x);
+            scale.y = -Mathf.Abs(scale.y);
+        }
+        else if (target.position.x < spawnedEnemy.transform.position.x && target.position.y > spawnedEnemy.transform.position.y)
+        {
+            scale.x = -Mathf.Abs(scale.x);
+            scale.y = -Mathf.Abs(scale.y);
+        }
+        else if (target.position.x > spawnedEnemy.transform.position.x && target.position.y < spawnedEnemy.transform.position.y)
+        {
+            scale.x = -Mathf.Abs(scale.x);
+            scale.y = Mathf.Abs(scale.y);
+        }
+        else if (target.position.x > spawnedEnemy.transform.position.x && target.position.y > spawnedEnemy.transform.position.y)
+        {
+            scale.x = -Mathf.Abs(scale.x);
+            scale.y = Mathf.Abs(scale.y);
+        }
         
+        spawnedEnemy.transform.localScale = scale;
+
+        spawnedEnemy.transform.rotation = Quaternion.Euler(0f, 0f, angle);
         
     }
 
