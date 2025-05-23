@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6932948945319999088}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.00000002858115, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.000000031023493, w: 1}
   m_LocalPosition: {x: -2, y: 2, z: 0}
   m_LocalScale: {x: 0.37, y: 0.17, z: 0.68}
   m_ConstrainProportionsScale: 0
@@ -131,7 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 7935390525986308041}
   bulletSpeed: 16
-  bulletDamage: 80
+  bulletDamage: 35
 --- !u!58 &5679589079285729828
 CircleCollider2D:
   m_ObjectHideFlags: 0

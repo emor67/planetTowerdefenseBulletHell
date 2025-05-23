@@ -182,9 +182,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44192670ef6791649aecbb9d6d17c8b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyHealth: 200
+  enemyHealth: 250
   enemyDamage: 200
-  coinValue: 20
+  coinValue: 22
   levelManagerObject: {fileID: 0}
 --- !u!95 &3242069879485076778
 Animator:

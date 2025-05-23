@@ -1,0 +1,2556 @@
+fileFormatVersion: 2
+guid: 6eea39af0e092d74d9753ab8469bc344
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5927104866450161441
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_0
+  - first:
+      213: -4714686557733133233
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_1
+  - first:
+      213: -7987929168274760172
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_2
+  - first:
+      213: -7504880571531440184
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_3
+  - first:
+      213: -6456735977753133705
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_4
+  - first:
+      213: -3299139500233747247
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_5
+  - first:
+      213: 6684085299587216524
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_6
+  - first:
+      213: -4585664903897631656
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_7
+  - first:
+      213: 4343481887045103329
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_8
+  - first:
+      213: -7362071390171309686
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_9
+  - first:
+      213: 4204966849134264103
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_10
+  - first:
+      213: -4598876174322936360
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_11
+  - first:
+      213: -2657889003074977389
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_12
+  - first:
+      213: 7759713489451242425
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_13
+  - first:
+      213: -7387906818495529463
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_14
+  - first:
+      213: -8027101920959885627
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_15
+  - first:
+      213: -4407481581331776305
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_16
+  - first:
+      213: 8569450250844894484
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_17
+  - first:
+      213: 9047572116116004937
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_18
+  - first:
+      213: 5318394102194465305
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_19
+  - first:
+      213: 2616752712962504731
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_20
+  - first:
+      213: 985258783816580137
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_21
+  - first:
+      213: -2438573859052161810
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_22
+  - first:
+      213: -1553625731182167907
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_23
+  - first:
+      213: 2210111847469956575
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_24
+  - first:
+      213: 8208542369414361998
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_25
+  - first:
+      213: 4500442441424225038
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_26
+  - first:
+      213: 2072388757791103030
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_27
+  - first:
+      213: -735420495340771795
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_28
+  - first:
+      213: -2468848300118389341
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_29
+  - first:
+      213: -8529217121399770793
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_30
+  - first:
+      213: -8197348130225703182
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_31
+  - first:
+      213: -3764134782439334264
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_32
+  - first:
+      213: -7199808696435615987
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_33
+  - first:
+      213: 4903180693333855724
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_34
+  - first:
+      213: 7699883562252118998
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_35
+  - first:
+      213: 8067179447504407230
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_36
+  - first:
+      213: -8151069614010558709
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_37
+  - first:
+      213: -2244164492134709148
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_38
+  - first:
+      213: 5532764711838993046
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_39
+  - first:
+      213: -2985108452522532426
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_40
+  - first:
+      213: 3867811688001384999
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_41
+  - first:
+      213: -8256295111305581010
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_42
+  - first:
+      213: 6438025838230070440
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_43
+  - first:
+      213: 5704886257641534335
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_44
+  - first:
+      213: -4008636859819734784
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_45
+  - first:
+      213: 3393467650691037572
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_46
+  - first:
+      213: 2496574914899854394
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_47
+  - first:
+      213: -101971474684802355
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_48
+  - first:
+      213: 4641203295429752359
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_49
+  - first:
+      213: -1959503748779274788
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_50
+  - first:
+      213: 6448881528104424586
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_51
+  - first:
+      213: -5669348325530841252
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_52
+  - first:
+      213: 7305953891472161228
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_53
+  - first:
+      213: -7461642647153301398
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_54
+  - first:
+      213: -422612484255327059
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_55
+  - first:
+      213: -2814102864026865561
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_56
+  - first:
+      213: 7283233940914536674
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_57
+  - first:
+      213: 794810712694137136
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_58
+  - first:
+      213: 5396891983605298657
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_59
+  - first:
+      213: -3202380980435606604
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_60
+  - first:
+      213: 9196234963518752613
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_61
+  - first:
+      213: 6243276765334930059
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_62
+  - first:
+      213: 2685448754326038483
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_63
+  - first:
+      213: 7210698451706894460
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_64
+  - first:
+      213: 2152220214926248880
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_65
+  - first:
+      213: 3002272291551578456
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_66
+  - first:
+      213: 7842117928917988363
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_67
+  - first:
+      213: -8612076361512631237
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_68
+  - first:
+      213: -4846184169995875899
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_69
+  - first:
+      213: -8866916978511726318
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_70
+  - first:
+      213: 4253554797549779236
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_71
+  - first:
+      213: 2436980700560970099
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_72
+  - first:
+      213: -5795096040414994790
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_73
+  - first:
+      213: -7879751459336947504
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_74
+  - first:
+      213: 6814863267365105452
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_75
+  - first:
+      213: -7460846929908686144
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_76
+  - first:
+      213: -3843672497772960030
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_77
+  - first:
+      213: 5714719563654913163
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_78
+  - first:
+      213: 570617471039154934
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_79
+  - first:
+      213: -3170629043961941930
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_80
+  - first:
+      213: 8979492150622997090
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_81
+  - first:
+      213: -6038013466601866568
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_82
+  - first:
+      213: -8967162057667153387
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_83
+  - first:
+      213: -4374222783068625185
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_84
+  - first:
+      213: 7062095808293815754
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_85
+  - first:
+      213: -1711449008994112873
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_86
+  - first:
+      213: -2977027422152596320
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_87
+  - first:
+      213: -4618924654791291332
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_88
+  - first:
+      213: 5376550658653085244
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_89
+  - first:
+      213: 5810800954672210382
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_90
+  - first:
+      213: -4439102244595859119
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_91
+  - first:
+      213: -3450509690672185563
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_92
+  - first:
+      213: -2452766457145359768
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_93
+  - first:
+      213: -7058007400893684940
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_94
+  - first:
+      213: -3320384607808251548
+    second: ELR_Corsshairs_scaled_30x_pngcrushed_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_0
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 2699
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f304f097e414250800000000000000
+      internalID: 5927104866450161441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_1
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 2549
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44e1032e81129eb0800000000000000
+      internalID: -4714686557733133233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_2
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 2729
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e500a4ebc252190800000000000000
+      internalID: -7987929168274760172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_3
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 2549
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf432cf1ee49d790800000000000000
+      internalID: -7504880571531440184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_4
+      rect:
+        serializedVersion: 2
+        x: 2549
+        y: 2669
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d3a8566d01566a0800000000000000
+      internalID: -6456735977753133705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_5
+      rect:
+        serializedVersion: 2
+        x: 2669
+        y: 2669
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d49b18aa1a1732d0800000000000000
+      internalID: -3299139500233747247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_6
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 2699
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c847e4a8a24a2cc50800000000000000
+      internalID: 6684085299587216524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_7
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 2699
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854b438d0127c50c0800000000000000
+      internalID: -4585664903897631656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_8
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 1349
+        width: 481
+        height: 1531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eeaaa573c5274c30800000000000000
+      internalID: 4343481887045103329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_9
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 2579
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89d5c9931ba4d990800000000000000
+      internalID: -7362071390171309686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_10
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 2609
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ff0f6021b0b5a30800000000000000
+      internalID: 4204966849134264103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_11
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 2609
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5597f3c728d20c0800000000000000
+      internalID: -4598876174322936360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_12
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 2609
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3918c47a8084d1bd0800000000000000
+      internalID: -2657889003074977389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_13
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 2609
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b35c815e4a00bb60800000000000000
+      internalID: 7759713489451242425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_14
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 2609
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e33e134e1e87990800000000000000
+      internalID: -7387906818495529463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_15
+      rect:
+        serializedVersion: 2
+        x: 2549
+        y: 2549
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce845115510a9090800000000000000
+      internalID: -8027101920959885627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_16
+      rect:
+        serializedVersion: 2
+        x: 2669
+        y: 2549
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc74a68ada75d2c0800000000000000
+      internalID: -4407481581331776305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_17
+      rect:
+        serializedVersion: 2
+        x: 3059
+        y: 2579
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415fdf9a99dcce670800000000000000
+      internalID: 8569450250844894484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_18
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 2549
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940e2dc47ee6f8d70800000000000000
+      internalID: 9047572116116004937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_19
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 2519
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a65d4024bbec940800000000000000
+      internalID: 5318394102194465305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_20
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 2549
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b187b217ab2905420800000000000000
+      internalID: 2616752712962504731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_21
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 2549
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c783dc4a75cad00800000000000000
+      internalID: 985258783816580137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_22
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 2009
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee474accef1782ed0800000000000000
+      internalID: -2438573859052161810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_23
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 2009
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98faf201a9607ae0800000000000000
+      internalID: -1553625731182167907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_24
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 2039
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd345ef305ebae10800000000000000
+      internalID: 2210111847469956575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_25
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 2039
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83bfa45bc99ae170800000000000000
+      internalID: 8208542369414361998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_26
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 1949
+        width: 182
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03ce2d5e88c47e30800000000000000
+      internalID: 4500442441424225038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_27
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 2189
+        width: 62
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638d6a0689a92cc10800000000000000
+      internalID: 2072388757791103030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_28
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 1949
+        width: 422
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26eba6b4f24bc5f0800000000000000
+      internalID: -735420495340771795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_29
+      rect:
+        serializedVersion: 2
+        x: 2909
+        y: 1949
+        width: 422
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3adcd133d83ecbdd0800000000000000
+      internalID: -2468848300118389341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_30
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1799
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75179c2c73222a980800000000000000
+      internalID: -8529217121399770793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_31
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1769
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f63fa59e4b2d3e80800000000000000
+      internalID: -8197348130225703182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_32
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 1829
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ed20ecb5b13cbc0800000000000000
+      internalID: -3764134782439334264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_33
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 1799
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07df260324251c90800000000000000
+      internalID: -7199808696435615987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_34
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1769
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedc7b7ccd89b0440800000000000000
+      internalID: 4903180693333855724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_35
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 1769
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db28ebdd4b7bda60800000000000000
+      internalID: 7699883562252118998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_36
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1649
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba05db37f064ff60800000000000000
+      internalID: 8067179447504407230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_37
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1649
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b079b6d4f5591ee80800000000000000
+      internalID: -8151069614010558709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_38
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1679
+        width: 182
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46804c4d8402bd0e0800000000000000
+      internalID: -2244164492134709148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_39
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1679
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69acafa013458cc40800000000000000
+      internalID: 5532764711838993046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_40
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 1649
+        width: 242
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1e06f9da3c296d0800000000000000
+      internalID: -2985108452522532426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_41
+      rect:
+        serializedVersion: 2
+        x: 2549
+        y: 1649
+        width: 182
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7223d69dc3a3da530800000000000000
+      internalID: 3867811688001384999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_42
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 1589
+        width: 482
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e26d9075fbb6d80800000000000000
+      internalID: -8256295111305581010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_43
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 1709
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a46d76c366785950800000000000000
+      internalID: 6438025838230070440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_44
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 1619
+        width: 242
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f733bb653d3db2f40800000000000000
+      internalID: 5704886257641534335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_45
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1499
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00948e0c3067e58c0800000000000000
+      internalID: -4008636859819734784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_46
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1529
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489f73459d4081f20800000000000000
+      internalID: 3393467650691037572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_47
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1529
+        width: 122
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34c1cd58ad95a220800000000000000
+      internalID: 2496574914899854394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_48
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1559
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca803aeb79b59ef0800000000000000
+      internalID: -101971474684802355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_49
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 1559
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726767a9ecdd86040800000000000000
+      internalID: 4641203295429752359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_50
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 1499
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd07fde8b17ec4e0800000000000000
+      internalID: -1959503748779274788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_51
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 959
+        width: 182
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a841e3905970f7950800000000000000
+      internalID: 6448881528104424586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_52
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 1259
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f47c44cbd6251b0800000000000000
+      internalID: -5669348325530841252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_53
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 1319
+        width: 182
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9b49e0b56f36560800000000000000
+      internalID: 7305953891472161228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_54
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1169
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68a58fbb8be27890800000000000000
+      internalID: -7461642647153301398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_55
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1079
+        width: 122
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dacd0564f24922af0800000000000000
+      internalID: -422612484255327059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_56
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1109
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760f44cda5c42f8d0800000000000000
+      internalID: -2814102864026865561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_57
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 959
+        width: 182
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e087485eae331560800000000000000
+      internalID: 7283233940914536674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_58
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 1139
+        width: 62
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0312fc1d12cb70b00800000000000000
+      internalID: 794810712694137136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_59
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 1169
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e572f54aac95ea40800000000000000
+      internalID: 5396891983605298657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_60
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 1139
+        width: 62
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b32ba9177bde83d0800000000000000
+      internalID: -3202380980435606604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_61
+      rect:
+        serializedVersion: 2
+        x: 2909
+        y: 1109
+        width: 92
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567009fb9f69f9f70800000000000000
+      internalID: 9196234963518752613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_62
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 1109
+        width: 92
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b820d38c32394a650800000000000000
+      internalID: 6243276765334930059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_63
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 1079
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d76e18f961a44520800000000000000
+      internalID: 2685448754326038483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_64
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 989
+        width: 182
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78d274b90c811460800000000000000
+      internalID: 7210698451706894460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_65
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 959
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb081de1e83edd10800000000000000
+      internalID: 2152220214926248880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_66
+      rect:
+        serializedVersion: 2
+        x: 3569
+        y: 929
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8590ee01eb63aa920800000000000000
+      internalID: 3002272291551578456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_67
+      rect:
+        serializedVersion: 2
+        x: 3749
+        y: 959
+        width: 91
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04f0eff4bcc4dc60800000000000000
+      internalID: 7842117928917988363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_68
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 629
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34408d8d22cb7880800000000000000
+      internalID: -8612076361512631237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_69
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 599
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9464f6c25eebcb0800000000000000
+      internalID: -4846184169995875899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_70
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 629
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219bdeaacf162f480800000000000000
+      internalID: -8866916978511726318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_71
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 629
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429fc945d89a70b30800000000000000
+      internalID: 4253554797549779236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_72
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 749
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3715b651905e1d120800000000000000
+      internalID: 2436980700560970099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_73
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 689
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e9acfdadea39fa0800000000000000
+      internalID: -5795096040414994790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_74
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 749
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8fad3ebcf75a290800000000000000
+      internalID: -7879751459336947504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_75
+      rect:
+        serializedVersion: 2
+        x: 2549
+        y: 749
+        width: 182
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fa724f802439e50800000000000000
+      internalID: 6814863267365105452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_76
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 689
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2aa3b1f3fb57890800000000000000
+      internalID: -7460846929908686144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_77
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 749
+        width: 182
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6ed495a3888aac0800000000000000
+      internalID: -3843672497772960030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_78
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 689
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c50ae4a23ce4f40800000000000000
+      internalID: 5714719563654913163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_79
+      rect:
+        serializedVersion: 2
+        x: 3809
+        y: 689
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6faabef019d3be700800000000000000
+      internalID: 570617471039154934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_80
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 599
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650bc18eea9aff3d0800000000000000
+      internalID: -3170629043961941930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_81
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 599
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26aca4d19809d9c70800000000000000
+      internalID: 8979492150622997090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_82
+      rect:
+        serializedVersion: 2
+        x: 2549
+        y: 599
+        width: 182
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8babb2e2ebaa43ca0800000000000000
+      internalID: -6038013466601866568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_83
+      rect:
+        serializedVersion: 2
+        x: 2909
+        y: 599
+        width: 422
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512736d5e9d3e8380800000000000000
+      internalID: -8967162057667153387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_84
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 689
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd626ceed83ab43c0800000000000000
+      internalID: -4374222783068625185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_85
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 419
+        width: 182
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5c02798ba910260800000000000000
+      internalID: 7062095808293815754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_86
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 149
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a26b7a136bf38e0800000000000000
+      internalID: -1711449008994112873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_87
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 149
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a46fff15597fa6d0800000000000000
+      internalID: -2977027422152596320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_88
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 149
+        width: 182
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e0fd2af7846efb0800000000000000
+      internalID: -4618924654791291332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_89
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 89
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ed8ed76585d9a40800000000000000
+      internalID: 5376550658653085244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_90
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 89
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1ecbb6eac14a050800000000000000
+      internalID: 5810800954672210382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_91
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 89
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151893527042562c0800000000000000
+      internalID: -4439102244595859119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_92
+      rect:
+        serializedVersion: 2
+        x: 2969
+        y: 89
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ff079c7b35d10d0800000000000000
+      internalID: -3450509690672185563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_93
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 149
+        width: 62
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8628bdc07e506fdd0800000000000000
+      internalID: -2452766457145359768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_94
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 149
+        width: 61
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43367afe9abec0e90800000000000000
+      internalID: -7058007400893684940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ELR_Corsshairs_scaled_30x_pngcrushed_95
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 0
+        width: 182
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4691ae59acf9be1d0800000000000000
+      internalID: -3320384607808251548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
