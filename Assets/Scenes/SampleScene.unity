@@ -9175,7 +9175,7 @@ Transform:
   m_GameObject: {fileID: 1375425732}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11603,6 +11603,23 @@ MonoBehaviour:
   - {fileID: 1582410780}
   - {fileID: 1078463013}
   - {fileID: 2126620114}
+  - {fileID: 1661338996}
+  - {fileID: 1703404122}
+  - {fileID: 631977271}
+  - {fileID: 33775233}
+  - {fileID: 635731058}
+  - {fileID: 1548982263}
+  - {fileID: 2024535186}
+  - {fileID: 716291641}
+  - {fileID: 612083361}
+  - {fileID: 1365155920}
+  - {fileID: 1215518586}
+  - {fileID: 465739983}
+  - {fileID: 1446276230}
+  - {fileID: 82033390}
+  - {fileID: 1972686555}
+  - {fileID: 1255210338}
+  - {fileID: 895281959}
   waveText: {fileID: 1330974868}
   enemy1: {fileID: 330161750582321748, guid: 16496bfff6107174a8401fe0bf9de34b, type: 3}
   enemy2: {fileID: 330161750582321748, guid: e7da7fcc2580e704c82979363ce8ef4b, type: 3}
@@ -11610,9 +11627,9 @@ MonoBehaviour:
   currencyManager: {fileID: 1690116639}
   baseEnemies: 12
   enemyPerSecond: 0.7
-  timeBetweenWaves: 3.5
-  diffucultyScaleFactor: 2.15
-  diffucultyScaleFactorEnemy: 0.8
+  timeBetweenWaves: 3
+  diffucultyScaleFactor: 2.35
+  diffucultyScaleFactorEnemy: 0.9
 --- !u!4 &1690116638
 Transform:
   m_ObjectHideFlags: 0
