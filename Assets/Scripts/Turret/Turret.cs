@@ -14,6 +14,11 @@ public class Turret : MonoBehaviour
     [SerializeField] private Transform firingPoint;
 
     public TurretRecoil turretRecoil;
+
+    public AudioSource audioSource;
+    public AudioClip shootSound; 
+
+    public float angleOffset = 0f; // Offset for the turret rotation
     
     //Variables
     [SerializeField] private float targetingRange = 6f;
@@ -53,6 +58,7 @@ public class Turret : MonoBehaviour
 
     private void Shoot()
     {
+        audioSource.PlayOneShot(shootSound);
         turretRecoil.Fire();
         GameObject bulletobj = Instantiate(bulletPrefab, firingPoint.position, quaternion.identity);
         Bullet bulletScript = bulletobj.GetComponent<Bullet>();
@@ -86,7 +92,7 @@ public class Turret : MonoBehaviour
     private void RotateTowardsTarget() {
         float angle = Mathf.Atan2(target.position.y - transform.position.y, target.position.x - transform.position.x) * Mathf.Rad2Deg + rotationOffset;
 
-        Quaternion targetRotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
+        Quaternion targetRotation = Quaternion.Euler(new Vector3(0f, 0f, angle + angleOffset));
         turretRotationPoint.rotation = Quaternion.RotateTowards(turretRotationPoint.rotation, targetRotation, rotationSpeed * Time.deltaTime);
     }
 

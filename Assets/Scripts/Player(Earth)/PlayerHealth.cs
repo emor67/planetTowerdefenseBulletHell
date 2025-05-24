@@ -9,6 +9,9 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private float maxHealth = 1000f;
 
     public CurrencyManager currencyManager;
+
+    public AudioSource audioSource;
+    public AudioClip hurtSound;
     
     private void Start()
     {
@@ -19,6 +22,8 @@ public class PlayerHealth : MonoBehaviour
     {
         healthBar.UpdateBar(healthBar.CurrentValue - damage);
         playerHealth -= damage;
+        audioSource.PlayOneShot(hurtSound);
+        
         if (playerHealth <= 0f)
         {
             // Handle player death (e.g., game over, respawn, etc.)

@@ -5,7 +5,6 @@ public class SpaceShip : MonoBehaviour
     public float moveSpeed = 5f;
     public GameObject projectilePrefab;
     public float projectileSpeed = 100f;
-    public Vector2 cursorHotspot = Vector2.zero;
     public Transform firingPoint;
 
     public AudioSource audioSource;
