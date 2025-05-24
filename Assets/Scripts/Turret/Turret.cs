@@ -12,6 +12,8 @@ public class Turret : MonoBehaviour
     [SerializeField] private LayerMask enemyMask;
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform firingPoint;
+
+    public TurretRecoil turretRecoil;
     
     //Variables
     [SerializeField] private float targetingRange = 6f;
@@ -51,6 +53,7 @@ public class Turret : MonoBehaviour
 
     private void Shoot()
     {
+        turretRecoil.Fire();
         GameObject bulletobj = Instantiate(bulletPrefab, firingPoint.position, quaternion.identity);
         Bullet bulletScript = bulletobj.GetComponent<Bullet>();
         bulletScript.SetTarget(target);

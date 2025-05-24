@@ -9,7 +9,7 @@ public class TurretScreenAnim : MonoBehaviour
 
     public void OnclickTurretButton()
     {
-        if(!isGameScreenActive)
+        if (!isGameScreenActive)
         {
             anim.SetBool("isToggled", true);
             isGameScreenActive = true;
