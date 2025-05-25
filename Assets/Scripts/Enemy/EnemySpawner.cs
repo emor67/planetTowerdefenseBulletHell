@@ -103,6 +103,11 @@ public class EnemySpawner : MonoBehaviour
             IncreaseEnemyStats();
         }
 
+        if( currentWave % 3 == 0)
+        {
+            Time.timeScale = 0f;
+        }
+
     }
 
     private int EnemiesPerWave()
@@ -178,6 +183,7 @@ public class EnemySpawner : MonoBehaviour
         currencyManager.AddGems(1);
 
         waveText.text = "Wave " + currentWave.ToString();
+
         StartCoroutine(StartWave());
     }
 
