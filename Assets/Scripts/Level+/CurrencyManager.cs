@@ -4,8 +4,10 @@ using TMPro;
 public class CurrencyManager : MonoBehaviour
 {
     //references
-    [SerializeField] private TextMeshProUGUI coinsText;
-    [SerializeField] private TextMeshProUGUI gemText;
+    public TextMeshProUGUI coinsText;
+
+    public TextMeshProUGUI coinsText2; // For the upgrade menu
+    public TextMeshProUGUI gemText;
     //variables
     public int coins;
     public int gem;
@@ -41,6 +43,7 @@ public class CurrencyManager : MonoBehaviour
     void Update()
     {
         coinsText.text = "Coins: " + coins.ToString();
+        coinsText2.text = "Coins: " + coins.ToString(); // Update the upgrade menu text
         gemText.text = "Gems: " + gem.ToString();
     }
 }

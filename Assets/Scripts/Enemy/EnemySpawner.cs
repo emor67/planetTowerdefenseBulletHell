@@ -73,6 +73,9 @@ public class EnemySpawner : MonoBehaviour
     private void Update()
     {
         UpdateEnemyWave();
+        //enable coins and gems texts
+        currencyManager.coinsText.gameObject.SetActive(true);
+        currencyManager.gemText.gameObject.SetActive(true);
     }
 
     private void UpdateEnemyWave()
@@ -105,22 +108,26 @@ public class EnemySpawner : MonoBehaviour
 
     private IEnumerator StartWave()
     {
-        yield return new WaitForSeconds(timeBetweenWaves);
-        isSpawning = true;
-        enemiesLeftToSpawn = EnemiesPerWave();
-        waveProgressBar.Initialize(enemiesLeftToSpawn);
-        if (currentWave > 1)
+        if (enemiesAlive <= 0)
         {
-            IncreaseEnemyStats();
+            yield return new WaitForSeconds(timeBetweenWaves);
+            isSpawning = true;
+            enemiesLeftToSpawn = EnemiesPerWave();
+            waveProgressBar.Initialize(enemiesLeftToSpawn);
+            if (currentWave > 1)
+            {
+                IncreaseEnemyStats();
+            }
+
+            StartCoroutine(UpgradeMenu());
         }
-
-        UpgradeMenu();
-
+       
     }
 
-    private void UpgradeMenu()
+    private IEnumerator UpgradeMenu()
     {
-        if (currentWave % 3 == 0)
+
+        if (currentWave % 4 == 0)
         {
             upgradeMenu.SetActive(true);
             Time.timeScale = 0f;
@@ -131,6 +138,8 @@ public class EnemySpawner : MonoBehaviour
             }
 
             EnableCardFromPile();
+
+            yield return new WaitForSeconds(0.1f); // Small delay to ensure UI updates
         }
     }
 
@@ -229,15 +238,15 @@ public class EnemySpawner : MonoBehaviour
     {
         enemy1.GetComponent<EnemyHealth>().enemyHealth += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
         enemy1.GetComponent<EnemyHealth>().enemyDamage += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
-        enemy1.GetComponent<EnemyHealth>().coinValue += (int)Mathf.Pow(currentWave, diffucultyScaleFactorEnemy/2);
+        //enemy1.GetComponent<EnemyHealth>().coinValue += (int)Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
 
         enemy2.GetComponent<EnemyHealth>().enemyHealth += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
         enemy2.GetComponent<EnemyHealth>().enemyDamage += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
-        enemy2.GetComponent<EnemyHealth>().coinValue += (int)Mathf.Pow(currentWave, diffucultyScaleFactorEnemy/2);
+        //enemy2.GetComponent<EnemyHealth>().coinValue += (int)Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
 
         enemy3.GetComponent<EnemyHealth>().enemyHealth += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
         enemy3.GetComponent<EnemyHealth>().enemyDamage += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
-        enemy3.GetComponent<EnemyHealth>().coinValue += (int)Mathf.Pow(currentWave, diffucultyScaleFactorEnemy/2);
+        //enemy3.GetComponent<EnemyHealth>().coinValue += (int)Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
     }
 
     private void DisableaWholePile()
@@ -260,16 +269,16 @@ public class EnemySpawner : MonoBehaviour
     private void EnableCardFromPile()
     {
         //set 1 random card from pile1 to active
-        int randomIndex = Random.Range(0, pile1.Length);
-        pile1[randomIndex].SetActive(true);
+        int randomIndex1 = Random.Range(0, 10);
+        pile1[randomIndex1].SetActive(true);
 
         //set 1 random card from pile2 to active
-        randomIndex = Random.Range(0, pile2.Length);
-        pile2[randomIndex].SetActive(true);
+        int randomIndex2 = Random.Range(0, 10);
+        pile2[randomIndex2].SetActive(true);
 
         //set 1 random card from pile3 to active
-        randomIndex = Random.Range(0, pile3.Length);
-        pile3[randomIndex].SetActive(true);
+        int randomIndex3 = Random.Range(0, 10);
+        pile3[randomIndex3].SetActive(true);
         
     }
 }

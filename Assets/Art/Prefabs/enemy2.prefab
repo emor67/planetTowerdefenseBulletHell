@@ -107,7 +107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pathPoints:
   - {fileID: 0}
-  pathDuration: 35
+  pathDuration: 37
 --- !u!58 &7482312152298790293
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -183,9 +183,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44192670ef6791649aecbb9d6d17c8b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyHealth: 200
-  enemyDamage: 150
-  coinValue: 17
+  enemyHealth: 272.5581
+  enemyDamage: 222.55809
+  coinValue: 30
   levelManagerObject: {fileID: 0}
   bloodEffectPrefab: {fileID: 7980634350688758281, guid: fb548b5d06237ca47b5278d66af3afaf, type: 3}
   spriteRenderer: {fileID: 1961810852254638690}
