@@ -14,7 +14,10 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private TextMeshProUGUI waveText;
     [SerializeField] private GameObject enemy1;
     [SerializeField] private GameObject enemy2;
-    [SerializeField] private GameObject enemy3; 
+    [SerializeField] private GameObject enemy3;
+
+    [SerializeField] private GameObject upgradeMenu;
+    [SerializeField] private GameObject[] otherMenus;
     
     public Transform target;
 
@@ -42,6 +45,8 @@ public class EnemySpawner : MonoBehaviour
     private void Awake()
     {
         AddListeners();
+
+        upgradeMenu.SetActive(false);
     }
 
     private void AddListeners()
@@ -103,12 +108,36 @@ public class EnemySpawner : MonoBehaviour
             IncreaseEnemyStats();
         }
 
-        if( currentWave % 3 == 0)
-        {
-            Time.timeScale = 0f;
-        }
+        UpgradeMenu();
 
     }
+
+    private void UpgradeMenu()
+    {
+        if (currentWave % 3 == 0)
+        {
+            upgradeMenu.SetActive(true);
+            Time.timeScale = 0f;
+
+            foreach (GameObject menu in otherMenus)
+            {
+                menu.SetActive(false);
+            }
+        }
+    }
+
+    //Buttons
+    public void UpgradeMenuClose()
+    {
+        upgradeMenu.SetActive(false);
+        Time.timeScale = 1f;
+
+        foreach (GameObject menu in otherMenus)
+        {
+            menu.SetActive(true);
+        }
+    }
+    //Buttons
 
     private int EnemiesPerWave()
     {

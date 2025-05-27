@@ -12,7 +12,7 @@ public class PlayerHealth : MonoBehaviour
 
     public AudioSource audioSource;
     public AudioClip hurtSound;
-    
+
     private void Start()
     {
         playerHealth = maxHealth;
@@ -23,7 +23,7 @@ public class PlayerHealth : MonoBehaviour
         healthBar.UpdateBar(healthBar.CurrentValue - damage);
         playerHealth -= damage;
         audioSource.PlayOneShot(hurtSound);
-        
+
         if (playerHealth <= 0f)
         {
             // Handle player death (e.g., game over, respawn, etc.)
@@ -31,17 +31,24 @@ public class PlayerHealth : MonoBehaviour
         }
     }
     public void Heal(float amount)
-    {   
-        if (currencyManager.coins >= 200 && playerHealth < maxHealth)
+    {
+        if (currencyManager.coins >= 500 && playerHealth < maxHealth)
         {
-            currencyManager.RemoveCoins(200);
+            currencyManager.RemoveCoins(500);
             healthBar.UpdateBar(healthBar.CurrentValue + (healthBar.MaxValue * amount / 100f));
-            playerHealth += playerHealth*amount/100f;
+            playerHealth += playerHealth * amount / 100f;
             if (playerHealth > maxHealth)
             {
                 playerHealth = maxHealth;
-            }   
+            }
         }
-        
+
+    }
+    
+    public void UpgradeMaxHealth(float amount)
+    {
+        maxHealth += maxHealth * amount / 100f;
+        playerHealth = maxHealth;
+        healthBar.SetNewMaxHP(maxHealth);
     }
 }

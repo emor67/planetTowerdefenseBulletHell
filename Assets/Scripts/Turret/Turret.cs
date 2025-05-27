@@ -21,9 +21,9 @@ public class Turret : MonoBehaviour
     public float angleOffset = 0f; // Offset for the turret rotation
     
     //Variables
-    [SerializeField] private float targetingRange = 6f;
-    [SerializeField] private float rotationSpeed = 3000f;
-    [SerializeField] private float bulletPerSecond = 3f;
+    public float targetingRange = 6f;
+    public float rotationSpeed = 3000f;
+    public float bulletPerSecond = 3f;
 
     private Transform target;
     private float timeUntilFire;
