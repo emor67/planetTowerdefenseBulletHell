@@ -2995,7 +2995,7 @@ MonoBehaviour:
   angleOffset: 180
   targetingRange: 3
   rotationSpeed: 2000
-  bulletPerSecond: 2
+  bulletPerSecond: 3
 --- !u!114 &319558772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3672,7 +3672,7 @@ MonoBehaviour:
   angleOffset: 0
   targetingRange: 4
   rotationSpeed: 2300
-  bulletPerSecond: 1
+  bulletPerSecond: 1.66
 --- !u!114 &351181539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4955,7 +4955,7 @@ MonoBehaviour:
   angleOffset: -90
   targetingRange: 3
   rotationSpeed: 2000
-  bulletPerSecond: 2
+  bulletPerSecond: 3
 --- !u!114 &469653264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7894,12 +7894,12 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 723227375}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 249.99965}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00035095215}
   m_LocalScale: {x: 1.0000799, y: 1.0000799, z: 1.0000799}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1550983043}
-  m_Father: {fileID: 1843435733}
+  m_Father: {fileID: 1262041927}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8390,7 +8390,7 @@ MonoBehaviour:
   angleOffset: 90
   targetingRange: 3
   rotationSpeed: 2000
-  bulletPerSecond: 2
+  bulletPerSecond: 3
 --- !u!114 &763729920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8697,7 +8697,7 @@ MonoBehaviour:
   angleOffset: 0
   targetingRange: 3
   rotationSpeed: 2000
-  bulletPerSecond: 2
+  bulletPerSecond: 3
 --- !u!114 &792974944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10154,7 +10154,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 915668163}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 810026130}
+        m_TargetAssemblyTypeName: GameScreenAnim, Assembly-CSharp
+        m_MethodName: OnClickQuitButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &915668163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12173,15 +12185,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151047120}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -250}
   m_LocalScale: {x: 1.0000799, y: 1.0000799, z: 1.0000799}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1843435733}
+  m_Father: {fileID: 1262041927}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -420, y: -255}
+  m_AnchoredPosition: {x: 490.00006, y: 235}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1151047122
@@ -12582,7 +12594,7 @@ MonoBehaviour:
   angleOffset: 90
   targetingRange: 4
   rotationSpeed: 2300
-  bulletPerSecond: 1
+  bulletPerSecond: 1.66
 --- !u!114 &1245977213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12758,6 +12770,8 @@ RectTransform:
   - {fileID: 1215615388}
   - {fileID: 1690778839}
   - {fileID: 851575222}
+  - {fileID: 723227376}
+  - {fileID: 1151047121}
   m_Father: {fileID: 1843435733}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -17503,9 +17517,9 @@ MonoBehaviour:
   - {fileID: 579509744}
   target: {fileID: 710678928}
   currencyManager: {fileID: 1690116639}
-  baseEnemies: 12
+  baseEnemies: 10
   enemyPerSecond: 0.75
-  timeBetweenWaves: 5
+  timeBetweenWaves: 4
   diffucultyScaleFactor: 2.5
   diffucultyScaleFactorEnemy: 2
   pile1:
@@ -17732,7 +17746,7 @@ MonoBehaviour:
   angleOffset: -90
   targetingRange: 4
   rotationSpeed: 2300
-  bulletPerSecond: 1
+  bulletPerSecond: 1.66
 --- !u!114 &1708314356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17953,7 +17967,7 @@ MonoBehaviour:
   angleOffset: 180
   targetingRange: 4
   rotationSpeed: 2300
-  bulletPerSecond: 1
+  bulletPerSecond: 1.66
 --- !u!114 &1736345153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18711,8 +18725,6 @@ RectTransform:
   - {fileID: 810026128}
   - {fileID: 579509745}
   - {fileID: 1262041927}
-  - {fileID: 723227376}
-  - {fileID: 1151047121}
   - {fileID: 1330974867}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

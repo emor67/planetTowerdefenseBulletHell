@@ -26,8 +26,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (playerHealth <= 0f)
         {
-            // Handle player death (e.g., game over, respawn, etc.)
-            Debug.Log("Player is dead!");
+            UnityEditor.EditorApplication.isPlaying = false;
         }
     }
     public void Heal(float amount)

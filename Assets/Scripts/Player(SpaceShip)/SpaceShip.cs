@@ -38,11 +38,15 @@ public class SpaceShip : MonoBehaviour
 
     void Aim()
     {
-        Vector3 mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 direction = (mousePos - transform.position).normalized;
+        if (Time.timeScale != 0f) // Check if the game is not paused
+        {
+            Vector3 mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 direction = (mousePos - transform.position).normalized;
 
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, angle - 90f);
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0, 0, angle - 90f);
+        }
+        else return; // If the game is paused, do not update the aim
     }
 
 

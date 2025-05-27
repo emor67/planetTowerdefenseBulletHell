@@ -22,7 +22,7 @@ public class GameScreenAnim : MonoBehaviour
         }
     }
 
-     void Update()
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -44,6 +44,12 @@ public class GameScreenAnim : MonoBehaviour
             Time.timeScale = 1f; // Resume the game
             // Optionally disable pause menu UI here
         }
+    }
+
+    //quit game button
+    public void OnClickQuitButton()
+    {
+        UnityEditor.EditorApplication.isPlaying = false;
     }
 
 }

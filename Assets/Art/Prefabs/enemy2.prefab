@@ -183,8 +183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44192670ef6791649aecbb9d6d17c8b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyHealth: 272.5581
-  enemyDamage: 222.55809
+  enemyHealth: 250
+  enemyDamage: 200
   coinValue: 30
   levelManagerObject: {fileID: 0}
   bloodEffectPrefab: {fileID: 7980634350688758281, guid: fb548b5d06237ca47b5278d66af3afaf, type: 3}
