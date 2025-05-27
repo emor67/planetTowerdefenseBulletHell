@@ -21,7 +21,11 @@ public class CardScript : MonoBehaviour
     {
         cardCostText.text = cardCost.ToString();
         cardText.text = cardTextString;
+
+        
     }
+
+    
 
     // Update is called once per frame
     void Update()
@@ -29,10 +33,12 @@ public class CardScript : MonoBehaviour
 
     }
 
+    
+
     //Buttons
     public void UpgradeMaxHealth()
     {
-        if(currencyManager.coins >= cardCost)
+        if (currencyManager.coins >= cardCost)
         {
             currencyManager.RemoveCoins(cardCost);
             playerHealth.UpgradeMaxHealth(100f); // Increase max health by 100 points

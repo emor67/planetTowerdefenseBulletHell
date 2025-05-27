@@ -18,7 +18,7 @@ public class EnemySpawner : MonoBehaviour
 
     [SerializeField] private GameObject upgradeMenu;
     [SerializeField] private GameObject[] otherMenus;
-    
+
     public Transform target;
 
     public CurrencyManager currencyManager;
@@ -29,7 +29,11 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private float timeBetweenWaves = 5f;
     [SerializeField] private float diffucultyScaleFactor = 1f;
     [SerializeField] private float diffucultyScaleFactorEnemy = 1f;
-    
+
+    [SerializeField] private GameObject[] pile1;
+    [SerializeField] private GameObject[] pile2;
+    [SerializeField] private GameObject[] pile3;
+
 
     private int currentWave = 1;
     private float timeSinceLastSpawn;
@@ -59,9 +63,11 @@ public class EnemySpawner : MonoBehaviour
         StartCoroutine(StartWave());
         waveText.text = "Wave 1";
 
+        DisableaWholePile();
+
         enemy1 = AssetDatabase.LoadAssetAtPath("Assets/Art/Prefabs/enemy1.prefab", typeof(GameObject)) as GameObject;
         enemy2 = AssetDatabase.LoadAssetAtPath("Assets/Art/Prefabs/enemy2.prefab", typeof(GameObject)) as GameObject;
-        enemy3 = AssetDatabase.LoadAssetAtPath("Assets/Art/Prefabs/enemy3.prefab", typeof(GameObject)) as GameObject;    
+        enemy3 = AssetDatabase.LoadAssetAtPath("Assets/Art/Prefabs/enemy3.prefab", typeof(GameObject)) as GameObject;
     }
 
     private void Update()
@@ -123,6 +129,8 @@ public class EnemySpawner : MonoBehaviour
             {
                 menu.SetActive(false);
             }
+
+            EnableCardFromPile();
         }
     }
 
@@ -136,6 +144,7 @@ public class EnemySpawner : MonoBehaviour
         {
             menu.SetActive(true);
         }
+        DisableaWholePile();
     }
     //Buttons
 
@@ -190,11 +199,11 @@ public class EnemySpawner : MonoBehaviour
             scale.x = -Mathf.Abs(scale.x);
             scale.y = Mathf.Abs(scale.y);
         }
-        
+
         spawnedEnemy.transform.localScale = scale;
 
         spawnedEnemy.transform.rotation = Quaternion.Euler(0f, 0f, angle);
-        
+
     }
 
     private void EnemyDestroyed()
@@ -220,14 +229,47 @@ public class EnemySpawner : MonoBehaviour
     {
         enemy1.GetComponent<EnemyHealth>().enemyHealth += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
         enemy1.GetComponent<EnemyHealth>().enemyDamage += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
-        enemy1.GetComponent<EnemyHealth>().coinValue += (int)Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
+        enemy1.GetComponent<EnemyHealth>().coinValue += (int)Mathf.Pow(currentWave, diffucultyScaleFactorEnemy/2);
 
         enemy2.GetComponent<EnemyHealth>().enemyHealth += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
         enemy2.GetComponent<EnemyHealth>().enemyDamage += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
-        enemy2.GetComponent<EnemyHealth>().coinValue += (int)Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
+        enemy2.GetComponent<EnemyHealth>().coinValue += (int)Mathf.Pow(currentWave, diffucultyScaleFactorEnemy/2);
 
         enemy3.GetComponent<EnemyHealth>().enemyHealth += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
         enemy3.GetComponent<EnemyHealth>().enemyDamage += Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
-        enemy3.GetComponent<EnemyHealth>().coinValue += (int)Mathf.Pow(currentWave, diffucultyScaleFactorEnemy);
+        enemy3.GetComponent<EnemyHealth>().coinValue += (int)Mathf.Pow(currentWave, diffucultyScaleFactorEnemy/2);
+    }
+
+    private void DisableaWholePile()
+    {
+        //disable all piles
+        foreach (GameObject card in pile1)
+        {
+            card.SetActive(false);
+        }
+        foreach (GameObject card in pile2)
+        {
+            card.SetActive(false);
+        }
+        foreach (GameObject card in pile3)
+        {
+            card.SetActive(false);
+        }
+    }
+    
+    private void EnableCardFromPile()
+    {
+        //set 1 random card from pile1 to active
+        int randomIndex = Random.Range(0, pile1.Length);
+        pile1[randomIndex].SetActive(true);
+
+        //set 1 random card from pile2 to active
+        randomIndex = Random.Range(0, pile2.Length);
+        pile2[randomIndex].SetActive(true);
+
+        //set 1 random card from pile3 to active
+        randomIndex = Random.Range(0, pile3.Length);
+        pile3[randomIndex].SetActive(true);
+        
     }
 }

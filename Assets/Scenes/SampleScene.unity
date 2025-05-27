@@ -318,6 +318,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 763729919}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: spaceShip
       value: 
       objectReference: {fileID: 3850396588582158827, guid: 13f60f2c20752e345a4bd2fd936df7ca, type: 3}
@@ -472,12 +476,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 60986026}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 60986029}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &60986029 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 60986026}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &69824400
 GameObject:
   m_ObjectHideFlags: 0
@@ -1698,6 +1707,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 763729919}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: spaceShip
       value: 
       objectReference: {fileID: 3850396588582158827, guid: 13f60f2c20752e345a4bd2fd936df7ca, type: 3}
@@ -1852,12 +1865,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 200815809}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 200815812}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &200815812 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 200815809}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &210248233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,6 +2229,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 763729919}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: spaceShip
       value: 
       objectReference: {fileID: 3850396588582158827, guid: 13f60f2c20752e345a4bd2fd936df7ca, type: 3}
@@ -2365,12 +2387,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 272905156}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 272905159}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &272905159 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 272905156}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &274704888
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2398,6 +2425,10 @@ PrefabInstance:
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: turret4
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: spaceShip
@@ -2554,12 +2585,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 274704888}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 274704891}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &274704891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 274704888}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &288050489
 GameObject:
   m_ObjectHideFlags: 0
@@ -3073,6 +3109,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &323264620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 1090719803}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &327212351
 GameObject:
   m_ObjectHideFlags: 0
@@ -3402,6 +3443,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: spaceShip
       value: 
       objectReference: {fileID: 3850396588582158827, guid: 13f60f2c20752e345a4bd2fd936df7ca, type: 3}
@@ -3556,12 +3601,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 341038327}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 341038330}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &341038330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 341038327}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &351181536
 GameObject:
   m_ObjectHideFlags: 0
@@ -3904,6 +3954,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 763729919}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: spaceShip
       value: 
       objectReference: {fileID: 3850396588582158827, guid: 13f60f2c20752e345a4bd2fd936df7ca, type: 3}
@@ -4058,12 +4112,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 396109243}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 396109246}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &396109246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 396109243}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &397815864
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4092,6 +4151,10 @@ PrefabInstance:
       propertyPath: turret4
       value: 
       objectReference: {fileID: 1245977212}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: playerHealth
       value: 
@@ -4243,12 +4306,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 397815864}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 397815867}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &397815867 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 397815864}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &405057788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4276,6 +4344,10 @@ PrefabInstance:
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: turret4
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: spaceShip
@@ -4432,12 +4504,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 405057788}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 405057791}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &405057791 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 405057788}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &422683842
 GameObject:
   m_ObjectHideFlags: 0
@@ -6284,6 +6361,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1245977212}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 710678931}
@@ -6434,12 +6515,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 615819717}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 615819720}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &615819720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 615819717}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -6582,6 +6668,10 @@ PrefabInstance:
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: turret4
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: spaceShip
@@ -6738,12 +6828,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 632831500}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 632831503}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &632831503 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 632831500}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &635731058
 GameObject:
   m_ObjectHideFlags: 0
@@ -6799,6 +6894,10 @@ PrefabInstance:
       propertyPath: turret4
       value: 
       objectReference: {fileID: 1245977212}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: playerHealth
       value: 
@@ -6950,12 +7049,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 652078388}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 652078391}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &652078391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 652078388}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &658505687
 GameObject:
   m_ObjectHideFlags: 0
@@ -7924,6 +8028,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 763729919}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: spaceShip
       value: 
       objectReference: {fileID: 3850396588582158827, guid: 13f60f2c20752e345a4bd2fd936df7ca, type: 3}
@@ -8078,12 +8186,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 761650105}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 761650108}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &761650108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 761650105}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &763729917
 GameObject:
   m_ObjectHideFlags: 0
@@ -10904,6 +11017,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1245977212}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 710678931}
@@ -11054,12 +11171,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 1052330124}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1052330127}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1052330127 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 1052330124}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1060184407
 GameObject:
   m_ObjectHideFlags: 0
@@ -11256,6 +11378,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 763729919}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: spaceShip
       value: 
       objectReference: {fileID: 3850396588582158827, guid: 13f60f2c20752e345a4bd2fd936df7ca, type: 3}
@@ -11410,12 +11536,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 1083750276}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1083750279}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1083750279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 1083750276}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1090719803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11424,6 +11555,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1215615388}
     m_Modifications:
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 600
+      objectReference: {fileID: 0}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: playerHealth
       value: 
@@ -11575,7 +11710,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 1090719803}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 323264620}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
@@ -13064,6 +13199,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1245977212}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 710678931}
@@ -13214,12 +13353,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 1363689713}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1363689716}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1363689716 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 1363689713}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1364687830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13248,6 +13392,10 @@ PrefabInstance:
       propertyPath: turret4
       value: 
       objectReference: {fileID: 763729919}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: spaceShip
       value: 
@@ -13403,12 +13551,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 1364687830}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1364687833}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1364687833 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 1364687830}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1365155920
 GameObject:
   m_ObjectHideFlags: 0
@@ -13677,6 +13830,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1245977212}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 710678931}
@@ -13827,12 +13984,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 1383325973}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1383325976}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1383325976 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 1383325973}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1385771451
 GameObject:
   m_ObjectHideFlags: 0
@@ -14330,6 +14492,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 851575222}
     m_Modifications:
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 710678931}
@@ -14480,12 +14646,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 1424615883}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1424615886}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1424615886 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 1424615883}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1428956731
 GameObject:
   m_ObjectHideFlags: 0
@@ -14689,6 +14860,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: spaceShip
       value: 
       objectReference: {fileID: 3850396588582158827, guid: 13f60f2c20752e345a4bd2fd936df7ca, type: 3}
@@ -14843,12 +15018,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 1435670546}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1435670549}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1435670549 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 1435670546}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1446276230
 GameObject:
   m_ObjectHideFlags: 0
@@ -15469,6 +15649,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: spaceShip
       value: 
       objectReference: {fileID: 3850396588582158827, guid: 13f60f2c20752e345a4bd2fd936df7ca, type: 3}
@@ -15623,12 +15807,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 1571698235}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1571698238}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1571698238 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 1571698235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1578182066
 GameObject:
   m_ObjectHideFlags: 0
@@ -15954,6 +16143,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 763729919}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: spaceShip
       value: 
       objectReference: {fileID: 3850396588582158827, guid: 13f60f2c20752e345a4bd2fd936df7ca, type: 3}
@@ -16108,12 +16301,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 1585468851}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1585468854}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1585468854 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 1585468851}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1592312236
 GameObject:
   m_ObjectHideFlags: 0
@@ -16493,6 +16691,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1245977212}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 710678931}
@@ -16643,12 +16845,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 1657319205}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1657319208}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1657319208 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 1657319205}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1661338996
 GameObject:
   m_ObjectHideFlags: 0
@@ -16896,6 +17103,36 @@ MonoBehaviour:
   timeBetweenWaves: 3
   diffucultyScaleFactor: 2.35
   diffucultyScaleFactorEnemy: 0.9
+  pile1:
+  - {fileID: 323264620}
+  - {fileID: 1969772055}
+  - {fileID: 1657319208}
+  - {fileID: 1052330127}
+  - {fileID: 1845652705}
+  - {fileID: 60986029}
+  - {fileID: 1585468854}
+  - {fileID: 341038330}
+  - {fileID: 1571698238}
+  pile2:
+  - {fileID: 2102751446}
+  - {fileID: 397815867}
+  - {fileID: 652078391}
+  - {fileID: 1825149523}
+  - {fileID: 1364687833}
+  - {fileID: 272905159}
+  - {fileID: 200815812}
+  - {fileID: 405057791}
+  - {fileID: 1435670549}
+  pile3:
+  - {fileID: 1424615886}
+  - {fileID: 1363689716}
+  - {fileID: 1383325976}
+  - {fileID: 615819720}
+  - {fileID: 1083750279}
+  - {fileID: 761650108}
+  - {fileID: 396109246}
+  - {fileID: 632831503}
+  - {fileID: 274704891}
 --- !u!4 &1690116638
 Transform:
   m_ObjectHideFlags: 0
@@ -17743,6 +17980,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1245977212}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 710678931}
@@ -17893,12 +18134,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 1825149520}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1825149523}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1825149523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 1825149520}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1830146501
 GameObject:
   m_ObjectHideFlags: 0
@@ -18096,6 +18342,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 763729919}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: spaceShip
       value: 
       objectReference: {fileID: 3850396588582158827, guid: 13f60f2c20752e345a4bd2fd936df7ca, type: 3}
@@ -18250,12 +18500,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 1845652702}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1845652705}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1845652705 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 1845652702}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1858594187
 GameObject:
   m_ObjectHideFlags: 0
@@ -18799,6 +19054,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1245977212}
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 710678931}
@@ -18949,12 +19208,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 1969772052}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1969772055}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1969772055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 1969772052}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1972686555
 GameObject:
   m_ObjectHideFlags: 0
@@ -19418,6 +19682,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1690778839}
     m_Modifications:
     - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+      propertyPath: cardCost
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 710678931}
@@ -19568,12 +19836,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 461171296929886039, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
   m_PrefabInstance: {fileID: 2102751443}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2102751446}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c46af61080b245641aeca90971a75fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2102751446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5648014469724323358, guid: 0456fa23ea4447741bddb03c928b85fb, type: 3}
+  m_PrefabInstance: {fileID: 2102751443}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2116672660
 GameObject:
   m_ObjectHideFlags: 0
