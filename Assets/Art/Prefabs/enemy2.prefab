@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyHealth: 250
-  enemyDamage: 200
+  enemyDamage: 150
   coinValue: 30
   levelManagerObject: {fileID: 0}
   bloodEffectPrefab: {fileID: 7980634350688758281, guid: fb548b5d06237ca47b5278d66af3afaf, type: 3}
