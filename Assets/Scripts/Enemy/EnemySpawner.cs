@@ -269,15 +269,15 @@ public class EnemySpawner : MonoBehaviour
     private void EnableCardFromPile()
     {
         //set 1 random card from pile1 to active
-        int randomIndex1 = Random.Range(0, 10);
+        int randomIndex1 = Random.Range(0, pile1.Length);
         pile1[randomIndex1].SetActive(true);
 
         //set 1 random card from pile2 to active
-        int randomIndex2 = Random.Range(0, 10);
+        int randomIndex2 = Random.Range(0, pile2.Length);
         pile2[randomIndex2].SetActive(true);
 
         //set 1 random card from pile3 to active
-        int randomIndex3 = Random.Range(0, 10);
+        int randomIndex3 = Random.Range(0, pile3.Length);
         pile3[randomIndex3].SetActive(true);
         
     }
